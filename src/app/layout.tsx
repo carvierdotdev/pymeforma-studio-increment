@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <CSPostHogProvider>
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {children}
+          {/* Vercel Analytics */}
+          <Analytics />
+        </body>
       </CSPostHogProvider>
     </html>
   );
