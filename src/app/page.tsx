@@ -1,7 +1,15 @@
+import CallToActionButton from "@/components/website/CallToActionButton";
+import Hero from "@/components/website/Hero";
+import SplitButtonLeft from "@/components/website/SplitButtonLeft";
+import SplitImageLeft from "@/components/website/SplitImageLeft";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Hello</p>
+    <main>
+      <Hero />
+      <CallToActionButton />
+      <SplitImageLeft />
+      <SplitButtonLeft />
     </main>
   );
 }
