@@ -1,10 +1,19 @@
 import "@/style/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import { CSPostHogProvider } from "./provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const space_grotesk = Space_Grotesk({
+  weight: ["600"],
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
 
 export const metadata: Metadata = {
   title: "Pymeforma Studio - Your Digital Gateway to Social Media Excellence",
@@ -41,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <CSPostHogProvider>
-        <body className={inter.className}>
+        <body className={`${inter.variable} ${space_grotesk.variable}`}>
           {children}
           {/* Vercel Analytics */}
           <Analytics />
