@@ -37,3 +37,5 @@ next-env.d.ts
 
 # Output of Instalation/Config Tools at Warp Terminal 
 Inst-Config of Tools Log.md
+
+prettierrc.md
