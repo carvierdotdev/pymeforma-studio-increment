@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Pymeforma Studio",
     images: [
       {
-        url: "https://pymeforma.com/og.png",
+        url: "https://pymeforma.com/pymeforma-studio-og.png",
       },
     ],
   },
