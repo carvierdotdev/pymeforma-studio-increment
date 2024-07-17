@@ -17,23 +17,24 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Pymeforma Studio - Your Digital Gateway to Social Media Excellence",
+  title:
+    "Pymeforma Studio - Tu Puerta Digital a la Excelencia en Redes Sociales",
   description:
-    "Pymeforma Studio specializes in creating stunning visual content for Facebook and Instagram, and crafting bespoke websites with a focus on design and functionality.",
+    "Pymeforma Studio se especializa en crear contenido visual impresionante para Facebook e Instagram, y en diseñar sitios web personalizados con un enfoque en el diseño y la funcionalidad.",
   keywords: [
-    "social media",
-    "website design",
-    "digital studio",
-    "Facebook marketing",
-    "Instagram content creation",
+    "redes sociales",
+    "diseño de sitios web",
+    "estudio digital",
+    "marketing en Facebook",
+    "creación de contenido en Instagram",
   ],
   authors: [{ name: "Pymeforma Studio", url: "https://pymeforma.com" }],
   openGraph: {
     type: "website",
     url: "https://pymeforma.com",
-    title: "Pymeforma Studio - Digital Creativity Unleashed",
+    title: "Pymeforma Studio - Creatividad Digital Desatada",
     description:
-      "Elevate your brand's online presence with our expert social media strategies and innovative website designs.",
+      "Eleva la presencia en línea de tu marca con nuestras expertas estrategias en redes sociales e innovadores diseños de sitios web.",
     siteName: "Pymeforma Studio",
     images: [
       {
