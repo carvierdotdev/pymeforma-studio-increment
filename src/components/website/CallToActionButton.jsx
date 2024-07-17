@@ -2,8 +2,11 @@ import Button from "./Button";
 
 const CallToActionButton = () => {
   return (
-    <div className="py-24 gap-16 inline-flex flex-col items-center text-center w-screen bg-grey">
-      <div className="container gap-6 flex flex-col items-center">
+    <div
+      className="inline-flex w-screen flex-col items-center gap-16 bg-grey py-24 text-center"
+      id="cta-text"
+    >
+      <div className="container flex flex-col items-center gap-6">
         <h2>
           Con nosotros, tu visión emprendedora se convierte en éxito tangible.
           Tu éxito es, y siempre será, nuestro compromiso.

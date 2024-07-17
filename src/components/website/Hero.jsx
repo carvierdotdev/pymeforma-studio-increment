@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="pt-12 pb-24 flex flex-col items-center w-screen bg-greenGrey">
-      <div className="container grid grid-cols-1 md:grid-cols-2 text-left min-h-[512px] gap-24 items-center">
-        <div className="grid gap-12 items-start">
+    <div className="flex w-screen flex-col items-center bg-greenGrey pb-24 pt-12">
+      <div className="container grid min-h-[512px] grid-cols-1 items-center gap-24 text-left md:grid-cols-2">
+        <div className="grid items-start gap-12" id="hero-text">
           <h1>Ideas que Vuelan, Negocios que Crecen</h1>
           <p>
             Impulsamos tu visión y construimos tu éxito. Creemos en el poder de
@@ -25,7 +25,7 @@ const Hero = () => {
           width={1052}
           height={727}
           alt="Icono del lanzamiento de un producto"
-          className="w-full h-auto rounded-3xl overflow-hidden"
+          className="h-auto w-full overflow-hidden rounded-3xl"
         />
       </div>
     </div>
