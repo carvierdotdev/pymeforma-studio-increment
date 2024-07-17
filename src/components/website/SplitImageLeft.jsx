@@ -3,16 +3,19 @@ import Button from "./Button";
 
 const SplitImageLeft = () => {
   return (
-    <div className="flex justify-center items-center w-screen bg-greenGrey">
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 items-center min-h-[512px] py-24">
+    <div className="flex w-screen items-center justify-center bg-greenGrey">
+      <div
+        className="container grid min-h-[512px] grid-cols-1 items-center gap-24 py-24 md:grid-cols-2"
+        id="social-media-text"
+      >
         <Image
           src="/girl-influencer.svg"
           width={1054}
           height={672}
           alt="Redes sociales"
-          className="w-full h-auto rounded-3xl"
+          className="h-auto w-full rounded-3xl"
         />
-        <div className="flex flex-col gap-4 items-start">
+        <div className="flex flex-col items-start gap-4">
           <h3>Gestión de plataformas sociales</h3>
           <p>
             Captamos la esencia de tu marca y la transmitimos a través de

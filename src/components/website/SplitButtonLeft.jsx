@@ -3,9 +3,9 @@ import Button from "./Button";
 
 const SplitButtonLeft = () => {
   return (
-    <div className="flex justify-center items-center w-screen bg-grey">
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 min-h-[514px] items-center py-24">
-        <div className="flex flex-col gap-4 items-start">
+    <div className="flex w-screen items-center justify-center bg-grey">
+      <div className="container grid min-h-[514px] grid-cols-1 items-center gap-24 py-24 md:grid-cols-2">
+        <div className="flex flex-col items-start gap-4" id="website-text">
           <h3>Diseñamos Tu Presencia Digital</h3>
           <p>
             Transformamos tus ideas en realidad digital. Creamos sitios web que
@@ -25,7 +25,7 @@ const SplitButtonLeft = () => {
           width={1054}
           height={719}
           alt="Diseño web"
-          className="w-full h-auto rounded-3xl"
+          className="h-auto w-full rounded-3xl"
         />
       </div>
     </div>
