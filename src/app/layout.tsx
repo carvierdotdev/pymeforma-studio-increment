@@ -1,5 +1,6 @@
 import "@/style/globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { ThemeModeScript } from "flowbite-react";
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { CSPostHogProvider } from "./provider";
@@ -48,7 +49,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
+      <head>
+        <ThemeModeScript />
+      </head>
       <CSPostHogProvider>
         <body className={`${inter.variable} ${space_grotesk.variable}`}>
           {children}
