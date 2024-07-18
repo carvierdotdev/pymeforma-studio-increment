@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="flex w-screen flex-col items-center bg-greenGrey pb-24 pt-12">
-      <div className="container grid min-h-[512px] grid-cols-1 items-center gap-24 text-left md:grid-cols-2">
+      <div className="container grid min-h-[512px] grid-cols-1 items-center gap-24 pt-4 text-left md:grid-cols-2">
         <div className="grid items-start gap-12" id="hero-text">
           <h1>Ideas que Vuelan, Negocios que Crecen</h1>
           <p>
