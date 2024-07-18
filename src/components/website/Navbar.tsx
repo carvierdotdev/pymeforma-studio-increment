@@ -11,7 +11,11 @@ interface Props {}
 
 const Navbar = () => {
   return (
-    <FlowbiteNavbar fluid={true} rounded={true} className="xl:px-12">
+    <FlowbiteNavbar
+      fluid={true}
+      rounded={true}
+      className="fixed start-0 top-0 z-20 w-full border-b xl:px-12"
+    >
       <NavbarBrand as={Link} href="https://pymeforma.com">
         <img
           src="/FrameLogo.svg"
